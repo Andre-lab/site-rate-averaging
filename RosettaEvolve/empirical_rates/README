@@ -1,0 +1,1 @@
+This directory contains files with empirical rates for the simulated systems. Each files have contains a list of the number of sunbstititions occuring in each site in the simulated protein. The list goes from the first to the last site in the proteins.
