@@ -28,7 +28,7 @@ pos | amino acid type | ddG relative to wildtype | wt yes no?
 ```--score_style``` specfies the type of data that is provided. 'Rosetta' is ddGs predicted by Rosetta (or other software) while 'Experimental' is experimental data.
 if other sofware and energy functions are used for ddG calculations are used, the slope parameter (R*T factor in the Boltzmann equation) may need to be adjusted. 
 
-#Rosetta ddG calculations
+# Rosetta ddG calculations
 In this study we used a version of the Rosetta ddG prediction protocol to calculate the effect of mutations on the stability of proteins. The method is accessible through Rosetta Scripts as part of RosettaEvolve.
 More documentation on RosettaEvolve is found in the article [Atomistic simulation of protein evolution reveals sequence covariation and time-dependent fluctuations of site-specific substitution rates](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010262) and the corresponding [repo](https://github.com/Andre-lab/RosettaEvolve/tree/main).
 
