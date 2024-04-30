@@ -1,0 +1,17 @@
+-database /home/ingemar/git/RosettaEvolve/Rosetta/main/database 
+#-database /Users/christoffernorn/Rosetta/main/database
+-beta_nov16_cart
+#-parser:protocol protocols/simulate_branch.xml
+#-mute all
+-mute core.pack.interaction_graph.interaction_graph_factory protocols.relax.FastRelax core.pack.pack_rotamers core.pack.task core.scoring.CartesianBondedEnergy core.pose.util
+-overwrite
+#-ex1
+#-ex2
+-use_input_sc
+-nstruct 1
+-pdb_comments true
+#-extrachi_cutoff 5
+#-ignore_unrecognized_res
+#-corrections::correct
+#-corrections::score:no_his_his_pairE
+#-chemical:exclude_patches LowerDNA  UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated  tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated  lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm

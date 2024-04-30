@@ -1,0 +1,18 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="beta_nov16_cart" weights="beta_nov16_cart"/>
+	</SCOREFXNS>
+
+  <FILTERS>
+		<ScoreType name="total_score" scorefxn="beta_nov16_cart" score_type="total_score" confidence="0" threshold="100000"/>
+	</FILTERS>
+
+  <MOVERS>
+   	<NucleotideMutation name="measure_energies" bbnbrs="0" score_file="ranks/protein_name_ranks.txt" allow_silent="1" fast_relax_cycles="1" measure_e_dist_at_site="9999" flexbb="0" dualspace="1" scorefxn="beta_nov16_cart"/>
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add mover="measure_energies"/>
+
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
