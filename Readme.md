@@ -16,7 +16,7 @@ scripts/calc_rates.py --ranks ranks_xtal/1pga.txt --fasta fasta/1pga.fasta --sco
 ```
 ```--ranks``` specifies the ddG values in a list with the format
 
-pos | amino acid type | ddG relative to wildtype | wt yes no?
+pos | amino acid type | ddG relative | wt amino acid yes no?
 
 1 A -4.033 0
 
