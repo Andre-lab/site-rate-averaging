@@ -1,4 +1,4 @@
-# Mansucript repo
+# Manuscript repo
 This a repository for data from the manuscript "Improved prediction of site-specific evolutionary rates from structure by averaging across homologs"
 
 The repo contains:
